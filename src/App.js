@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import CircularRings from './components/CircularRings';
+import Trading from './components/Trading';
 
 function App() {
 
@@ -95,7 +96,8 @@ function App() {
 
   return (
     <div className="App">
-      <CircularRings data={data12} centerText="22K" />
+      {/* <CircularRings data={data12} centerText="22K" /> */}
+      <Trading/>
     </div>
   );
 }
